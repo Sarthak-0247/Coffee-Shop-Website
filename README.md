@@ -1,18 +1,24 @@
-## HTML Project - Coffee Shop Website
-Build a Basic Restaurant Website Using HTML
-Project Overview:
+### HTML Project - Coffee Shop Website
+# Build a Basic Restaurant Website Using HTML
+
+# Project Overview:
 Your task is to create a simple, yet well-structured website for a restaurant or café using only HTML. The project will help you apply the HTML concepts you've learned, focusing on best practices, proper use of semantic elements, and accessible content structure.
 
-Project Requirements:
+# Project Requirements:
 You are required to create a three-page website for a fictional restaurant or café. The website should include the following pages:
 
-Home Page (index.html):
-About Us Section: A brief description of the restaurant/café.
-Menu Section: A table listing various food or drink items available, including their prices and sizes.
-Navigation Bar: Links to the other pages (Timings, Contact Us).
-Header Image: A welcoming image related to your restaurant.
-Footer: Include a footer with copyright information.
-Timings Page (timings.html):
+# 1. Home Page (index.html):
+  # About Us Section: 
+    A brief description of the restaurant/café.
+  # Menu Section: 
+    A table listing various food or drink items available, including their prices and sizes.
+  # Navigation Bar: 
+    Links to the other pages (Timings, Contact Us).
+  # Header Image: 
+    A welcoming image related to your restaurant.
+  # Footer: 
+    Include a footer with copyright information.
+  # Timings Page (timings.html):
 Opening Hours: Use a definition list (<dl>) to display the opening hours for weekdays and weekends.
 Navigation Bar: Links to the other pages (Home, Contact Us).
 Header Image: An image related to your restaurant’s opening hours.
