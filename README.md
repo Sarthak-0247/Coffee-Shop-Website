@@ -7,7 +7,7 @@ Your task is to create a simple, yet well-structured website for a restaurant or
 # Project Requirements:
 You are required to create a three-page website for a fictional restaurant or café. The website should include the following pages:
 
-# 1. Home Page (index.html):
+1. Home Page (index.html):
   # About Us Section: 
     A brief description of the restaurant/café.
   # Menu Section: 
