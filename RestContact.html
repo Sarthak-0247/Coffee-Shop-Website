@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Sarthak Singh">
+        <meta name="viewport" content="Contact The Mocha Magic">
+        <title>Contact - The Mocha Magic</title>
+        <link rel="icon" href="images/Coffee_icon.svg" type="image/svg+xml">
+    </head>
+    <div id="main-container">
+        <header>
+            <h1>Contact - The Mocha Magic</h1>
+            <nav>
+                <ul>
+                    <li><a href="RestaruantWebSite.html">Home</a></li>
+                    <li><a href="/#about">About Us</a></li>
+                    <li><a href="/#menu">Menu</a></li>
+                    <li><a href="RestTiming.html">Our Timings</a></li>
+                </ul>
+            </nav>
+        </header>    
+        <main>
+            <figure>
+                <img src="Coffee.jpg" alt="A Coffee Cup" title="Contact The Mocha Magic" width="400">
+                <figcaption>Contact The Mocha Magic</figcaption>
+            </figure>
+        </main>
+        
+        <hr>
+
+        <main>
+            <section>
+                <p>Our Contact Form</p>
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend>Send Us a Message</legend>
+
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <br><br>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                        <br><br>
+
+                        <label for="reason">Contact Reason: </label>
+                        <select name="reason" id="reason" required>
+                            <option value="" disabled selected>Select a reason</option>
+                            <option value="inquire">Inquire</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="complaint">Complaint</option>
+                        </select>
+
+                        <br><br>
+
+                        <label for="message">Your Message</label>
+                        <br>
+                        <textarea name="message" id="message" rows="3" cols="30" placeholder="Type your message here" maxlength="500" required></textarea>
+                    </fieldset>
+
+                    <br>
+
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <hr>
+
+            <p><a href="#">Back to Top</a></p>
+        </main>
+
+        <hr>
+
+        <footer>
+            <p>Made with ❤️ from India</p>
+            <p>Copyright &copy; The Mocha Magic</p>
+        </footer>
+    </div>
+</html>
